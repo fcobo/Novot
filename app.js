@@ -38,6 +38,6 @@ bot.set('storage', tableStorage);
 
 bot.dialog('/', function (session) {
     if(session.message.text.indexOf("fenda") > -1)
-        session.send('You said: ' + session.message.text);
+        session.send('Has dicho: ' + session.message.text);
         
 });
